@@ -6,7 +6,7 @@ Uploaders: Birger Schacht <birger@debian.org>,
            Constantin Piber <cp.piber@gmail.com>
 Build-Depends:
  debhelper-compat (= 13),
- libwlroots-dev,
+ libwlroots-0.20-dev | libwlroots-0.19-dev,
  libwayland-dev,
  libinput-dev,
  meson,
